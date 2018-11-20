@@ -1,3 +1,3 @@
 # clinicpluz
 clinicpluz
-demo project 
+demo project initial push to jenkin

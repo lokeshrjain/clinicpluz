@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<decorators defaultdir="/WEB-INF/decorators">
+    <excludes>
+        <pattern>/nodecorate/*</pattern>
+        <pattern>/styles/*</pattern>
+        <pattern>/assets/*</pattern>
+        <pattern>/scripts/*</pattern>
+        <pattern>/images/*</pattern>
+        <pattern>/index.html</pattern>
+		<pattern>/META-INF/*</pattern>
+    </excludes>
+ 
+<!--      <decorator name="layout" page="layout.jsp">
+        <pattern>/client/*</pattern>
+        <pattern>/*</pattern>
+        <pattern>/js/*</pattern>
+    </decorator>
+
+    <decorator name="flowLayout" page="flowLayout.jsp">
+        <pattern>/client/*</pattern>
+        <pattern>/*</pattern>
+        <pattern>/js/*</pattern>
+    </decorator>
+     
+    <decorator name="fullPage" page="fullPageLayout.jsp">
+        <pattern>/home</pattern>
+        <pattern>/home.htm</pattern>
+        <pattern>/js/registration</pattern>
+        <pattern>/js/registration.htm</pattern>
+        <pattern>/client/registration</pattern>
+        <pattern>/client/registration.htm</pattern>
+        <pattern>/rs</pattern>
+        <pattern>/rs.htm</pattern>
+    </decorator>
+    <decorator name="adminFixedLayout" page="adminFixedLayout.jsp">
+        <pattern>/admin/*</pattern>
+    </decorator>
+
+-->     
+
+    <decorator name="fixedLayout" page="fixedLayout.jsp">
+        <pattern>/*.htm</pattern>
+        <pattern>/*.jsp</pattern>
+
+    </decorator>
+
+    <decorator name="adminLayout" page="adminLayout.jsp">
+        <pattern>/sb-admin/*</pattern>
+    </decorator>
+
+    <decorator name="headerFooterOnly" page="headerFooterLayout.jsp">
+        <pattern>/profile/*</pattern>
+    </decorator>
+</decorators>

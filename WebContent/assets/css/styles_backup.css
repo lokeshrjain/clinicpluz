@@ -1,0 +1,434 @@
+/* Basics */
+
+html, body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: #444;
+    background: #f0f0f0;
+}
+
+h1, h2, h3, h4, h5, h6, p, div, img, a, ol, ul, li, table, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font:80%/1.5 Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:#333;
+	background: #ddd;
+	margin-top: 8px;
+	width: 100%;
+	height:100%;
+}
+
+a img {
+	border-style: none;
+}
+
+
+h1, h2, h3, h4 {
+	line-height: 1.5;
+}
+
+#OuterDiv {
+	width: 75%;
+	height:100%;
+	margin-right: auto;
+	margin-left: auto;
+	background: #ddd;
+	/*border-top: 1px solid #CCC;*/
+}
+
+#header {
+    clear: both;
+	background: url(../images/header.jpg) no-repeat center center;
+    height: 15%;
+	border: 1px solid #66add6;
+}
+
+#header h1 {
+	font-size: 2.0em;
+	color: #FFF;
+	padding-left: 35px;
+	padding-top: 20px;
+}
+#rightBar {
+	width: 90%;
+	height:100%;
+	float: right;
+	background: #FFF;
+	
+}
+
+#rightBar #rightCol {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding-top: 5px;
+	padding-bottom: 5px;
+    margin-right: 15px;
+}
+
+#rightBar #rightCol h3, #pracLogo h3 {
+	font-size: 1.0em;
+	color: #06c;
+}
+
+#pracLogo a {
+       color: #06c;
+}
+
+#rightBar #rightColTwo {
+	margin-bottom: 15px;
+	/* border-bottom: 1px solid #ddd;
+	padding-top: 5px; */
+	padding-bottom: 5px;
+    margin-right: 35px;
+}
+
+#rightBar #rightColTwo h3 {
+	font-size: 1.0em;
+	color: #06c;
+}
+
+.SidebarButton a, #rightCol a {
+	color: #06c;
+	padding: 0px 15px 15px;
+}
+
+.SidebarButton a:hover, #rightCol a:hover {
+	color: #6c3;
+	padding: 0px 15px 15px;
+}
+
+
+#navigation {
+    clear: both;
+    border: 1px solid #66add6;
+	padding-left: 35px;
+	position: relative;
+	background: #B5B1E9 url(images/abc) no-repeat center bottom;
+	color: #FFF;
+	border-top: 1px solid #FFF;
+	
+    
+}
+
+#navigation ul {
+	list-style: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#navigation ul li {
+	display: inline;
+}
+#navigation ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+#navigation ul li a:hover {
+	color: #06C;
+}
+#navigation a.SelectedMenuItem {
+	color: #06C;
+}
+
+#navigation #PrintMenu {
+	float: right;
+	margin-right: 35px;
+	padding-top: 3px;
+}
+
+
+#navigationLeft {
+    float: left;
+    width: 20%;
+    height: 100%;
+    border: 1px solid #66add6;
+    background: #fff;
+}
+#headerMap a {
+	color: #06C;
+}
+#headerMap a:hover {
+	color: #6c3;
+}
+
+.SidebarButton a, #rightCol a {
+	color: #06c;
+}
+.SidebarButton a:hover, #rightCol a:hover {
+	color: #6c3;
+}
+
+#Menu {
+	padding-left: 35px;
+	position: relative;
+	background: #6c3 url(images/178703) no-repeat center bottom;
+	color: #FFF;
+	border-top: 1px solid #FFF;
+	margin-bottom: 8px;
+}
+
+#MainMenu ul {
+	list-style: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#MainMenu ul li {
+	display: inline;
+}
+#MainMenu ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+#MainMenu ul li a:hover {
+	color: #06C;
+}
+#MainMenu a.SelectedMenuItem {
+	color: #06C;
+}
+
+#Menu #PrintMenu {
+	float: right;
+	margin-right: 35px;
+	padding-top: 3px;
+}
+
+
+
+
+
+#Container {
+	width:100%;
+	height:100%;
+    background: #fff;
+	font:80%/1.5 Verdana, Geneva, Arial, Helvetica, sans-serif;
+		
+}
+
+#mainBody {
+	float: left;
+	width:70%;
+	height:100%;
+	background: #FFF;
+	position:relative;
+	border-right: 1px solid #ddd;
+	padding-left: 35px;
+	padding-bottom: 25px;
+	padding-right: 35px;
+	
+	
+}
+
+
+#navigationRight {
+	margin: 0 75%;
+	width: 25%;
+	height:100%;
+    background: #fff;
+}
+
+#Contect{
+	
+	width:100%;
+	height:100%;
+    background: #fff;
+		
+}
+
+#Content .Title {
+	font-size: 1.4em;
+	color: #06C;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#Content h2 {
+	color: #06C;
+	font-size: 1.3em;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#Content table {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#Content a {
+	color: #06C;
+}
+#Main{
+	
+	width:100%;
+	height:100%;
+    background: #fff;
+		
+}
+	
+
+
+#Main #SubContent {
+	/*width: 300px;*/
+	float: right;
+	top: 20px;
+	position: relative;
+}
+
+#SubContent .ListElement a {
+	color: #06C;
+}
+
+.Text {
+	padding-top: 10px;
+        line-height: 1.3;
+}
+
+
+.Text a {
+	color: #06C;
+}
+
+.Text p {
+	padding-bottom: 10px;
+}
+
+.Text h1 {
+	color: #39c;
+	font-size: 1.4em;
+	padding-bottom: 10px;
+}
+.Text h2 {
+	color: #06C;
+	font-size: 1.3em;
+	padding-bottom: 10px;
+}
+
+.Text h3 {
+	color: #06C;
+	font-size: 1.2em;
+	padding-bottom: 10px;
+}
+
+.Text h4 {
+	color: #09F;
+	font-size: 1.1em;
+	padding-top: 5px;
+	padding-bottom: 8px;
+}
+
+.Text h5 {
+	color: #666;
+	font-size: 1.0em;
+	padding-top: 5px;
+	padding-bottom: 8px;
+}
+
+.Text h6 {
+	color: #333;
+	font-size: 1.0em;
+	padding-top: 5px;
+	padding-bottom: 8px;
+}
+
+.Text ol {
+	padding-left: 35px;
+	line-height: 1.3;
+}
+
+.Text ul {
+	padding-left: 35px;
+	line-height: 1.3;
+}
+
+.Text table {
+	margin-bottom: 10px;
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+}
+.Text table p {
+	padding-bottom: 3px;
+}
+
+.Text table td {
+	border: 1px solid #ccc;
+	padding: 3px 3px 3px 5px;
+}
+.Text table th {
+	border: 1px solid #CCC;
+	padding: 3px 3px 3px 5px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.Text .Box table {
+	border: 1px solid #F00 !important;
+}
+
+.Text .Box table td {
+	border: 1px solid #F00 !important;
+}
+
+.Text .TOC {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.Text .TOC ul {
+	list-style: url(images/178708) none inside;
+	padding-left: 6px;
+}
+
+.TOC ul li a {
+	color: #06C;
+}
+
+
+
+#todlerclinic {
+	text-align: center;
+	padding-right: 35px;
+}
+#todlerclinic p {
+	font-size: 0.9em;
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+
+#clinic24 {
+	text-align: center;
+	padding-right: 35px;
+}
+
+#clinic24 p {
+	font-size: 0.9em;
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+
+
+#footer {
+	clear: both;
+	padding-left: 35px;
+	padding-right: 35px;
+	font-size: 0.9em;
+	background: #B5B1E9 url(images/LOGO.GIF) no-repeat center top;
+	height: 5%;
+	color: #FFF;
+}
+#footer a {
+	color: #FFF;
+}
+
+#footer #designBy {
+	float: left;
+}
+#footer #login {
+	float: right;
+}
+.clearAll {
+	clear: both;
+	height: 1px;
+}
+

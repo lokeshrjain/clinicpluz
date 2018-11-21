@@ -3,7 +3,8 @@ pipeline {
   stages{
   	stage('Build and Test') {
   	  steps {
-        sh './mvnw clean install'
+  	  	mvn -version
+        mvn clean install
       }
   	}
   }

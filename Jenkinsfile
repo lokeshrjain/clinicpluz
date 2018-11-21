@@ -6,6 +6,8 @@ pipeline {
   stages{
   	stage('Build and Test') {
   	  steps {
+  	   sh 'ls'
+  	   sh 'mvn --version'
        sh 'mvn clean install'
       }
   	}

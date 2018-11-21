@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages{
-  	stage{
+  	stage('Build and Test') {
   	  steps {
         sh './mvnw clean install'
       }
